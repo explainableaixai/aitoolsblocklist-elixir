@@ -1,6 +1,6 @@
 # AIToolsBlocklist
 
-Elixir client for [a live register of AI products and their terms](https://www.aitoolsblocklist.com). Ask about a hostname and get back whether it belongs to an AI tool, the tool's categories, and what its vendor says about training on customer data. It is built on `Req`, so it fits naturally into Phoenix apps, Oban jobs and plain scripts.
+Elixir client for AI Tools Blocklist, the data behind [allowlist and blocklist management tools](https://www.aitoolsblocklist.com). Ask about a hostname and get back whether it belongs to an AI tool, the tool's categories, and what its vendor says about training on customer data. It is built on `Req`, so it fits naturally into Phoenix apps, Oban jobs and plain scripts.
 
 ## Installation
 
@@ -137,7 +137,7 @@ Resolvers and firewalls that see every DNS query should not call an API per quer
 
 ## Related services
 
-Start with evidence: [AI usage discovery from network exports](https://www.shadowaitools.com) shows which tools people already use. If your system runs LLM agents, add [page-type guardrails for LLM agents](https://www.aiagentallowlist.com). For the non-AI part of the web, use [blocklist categories for network appliances](https://www.webfilteringdatabase.com).
+Start with evidence: [a shadow AI detection tool](https://www.shadowaitools.com/how-it-works.php) shows which tools people already use. If your system runs LLM agents, add an [AI agent allow list for LLM agents](https://www.aiagentallowlist.com/agent-guardrails.php). For the non-AI part of the web, including [web filtering for remote employees and branch offices](https://www.webfilteringdatabase.com/web-filtering-database.php), use the general database.
 
 The register is also on [pub.dev for Flutter](https://pub.dev/packages/aitoolsblocklist), on [crates.io for Rust](https://crates.io/crates/aitoolsblocklist), and as [a Go module](https://pkg.go.dev/github.com/explainableaixai/aitoolsblocklist-go).
 
